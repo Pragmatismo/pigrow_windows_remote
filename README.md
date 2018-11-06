@@ -1,13 +1,15 @@
 # pigrow_windows_remote
 
-This is the executable version of pigrow_remote.py for running on windows machines, this is the first version so there may be some bugs if you find any please tell me about them. 
-  
-Simply unzip the folder onto your harddisk and then run pigrow_remote.exe and follow the onscreen instructions to connecet to your pi.
-  
-  NOTE - when pressing the install pigrow button to set up a pigrow it will take a very long time and look like nothing is happening, be patient and it'll finish eventually... it'll be updated with progreess bars soon, at the moment it's just running install.py found in the pigrow/scripts/setup folder, if it fails then try running this manually on the pi via the command line. 
-  
-  This is a very basic tool at this stage but expect lots of more useful and interesting features to appear soon...
-  
-  More info at www.reddit.com/r/Pigrow 
+This is the executable version of pigrow_remote.py, there are versions for running on windows or linux machines - just download, unzip and run the executable.
+
+To make and play timelapse video you'll need MPV insalled, on linux simply run the command 'apt install mpv' on windows visit https://mpv.io/installation/ and follow the instructions, install it into the same folder as the pigrow_remote.exe or set path variables so that running the command mpv in the pigrow_remote.exe folder opens mpv.
+
+This is still a rapidly evolving work-in-progress so not all features are complete, it'd be really helpful if you could tell me about any bugs or errors you experience.   
+
+To connect to your pi you will need it linked to your wifi with SSH enabled, the easiest way to do this is to connect it to a screen using HDMI and use a mouse and keyboard to connect to wife and run raspi-conf to turn SSH on. 
+
+Once connected to you raspbery pi you can use the 'install pigrow' button in the system tab of the gui to insstall the pigrow software onto the pi, the first step you should take is to chagne the box name to something of your choice (making sure to click the button after inputting your new name) - once you have your sensors and relay board working it's a good idea to use the local files tab to download your settings files so you can keep a backup.   
+
+  More info and guides at www.reddit.com/r/Pigrow 
   
   
