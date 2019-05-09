@@ -4,7 +4,15 @@ This is the executable version of pigrow_remote.py, there are versions for runni
 
 -------
 
-New features in this version -
+New features in this version - 2.5
+
+    - Added support for ADS1115 Analog to Digital Converter - this handly little component allows you to monitor and log four analog sensors per module, first ensure the ic2 is enabled and the ads1115 library is installed (look in the install pigrow dialogue box, which has been upgraded this version) Then goto the sensors tab an click add ads1115 
+
+    - tine difference graph in the create timelapse tab, this enables you to see the time differences in seconds between images in your timelapse
+
+    - Various cosmetic changes through out the gui, minor improvements and fixes.
+
+Recent new features -
 
     - Overlay Log's onto Timelapse videos, new button in the timelapse tab that opens a dialogue box which allows you to select exactly which parts of the log you want to display, the size, position and colour of the text. It creates a new image set in a folder called edited_caps which you can overlay more logs onto or make into a timelapse. 
 
