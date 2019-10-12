@@ -4,6 +4,17 @@ This is the executable version of pigrow_remote.py, there are versions for runni
 
 -------
 
+New features in 3.6
+     - added install wizard 
+     - lots of small fixes and improvements
+
+New features in 3.5
+     - added local graphing tab, lots of graphing options
+     - added graphing modules support and etc
+
+New Features in 3.0 
+     - added self-watering controlls 
+
 New features in this version - 2.5
 
     - Added support for ADS1115 Analog to Digital Converter - this handly little component allows you to monitor and log four analog sensors per module, first ensure the ic2 is enabled and the ads1115 library is installed (look in the install pigrow dialogue box, which has been upgraded this version) Then goto the sensors tab an click add ads1115 
