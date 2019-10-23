@@ -4,6 +4,14 @@ This is the executable version of pigrow_remote.py, there are versions for runni
 
 -------
 
+New features in 3.7
+     - added feature to allow graphing multipul logs
+     - making commpare graphs
+     - added basic data sucker module framework
+     - added tool to animate graphinh modules
+     - cleaned system tab
+     - resizing now worked correctly
+
 New features in 3.6
      - added install wizard 
      - lots of small fixes and improvements
