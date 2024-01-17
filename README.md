@@ -1,6 +1,8 @@
 # pigrow_windows_remote
 
-This is the executable version of pigrow_remote.py, there are versions for running on windows or linux machines - just download, unzip and run the executable.
+This is the windows executable version of pigrow_remote.py - just download, unzip and run the executable.
+
+The test gui now has all the features of the old gui 3.7 except for the Graphing and User Log tabs. They're upgraded in many ways so use the new gui for everything except for these - they'll be added in future versions. 
 
 -------
 
