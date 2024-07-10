@@ -1,56 +1,23 @@
 # pigrow_windows_remote
 
-This is the windows executable version of pigrow_remote.py - just download, unzip and run the executable.
+This is the windows executable version of pigrow_remote.py - just download, unzip and run the executable test_gui.exe
 
-The test gui now has all the features of the old gui 3.7 except for the Graphing and User Log tabs. They're upgraded in many ways so use the new gui for everything except for these - they'll be added in future versions. 
+The test gui now has all the features of the old gui 3.7 except for the Graphing and User Log tabs. The features are upgraded in many ways so use the new gui for everything except for these - they'll be added in future versions. 
 
--------
-
-New features in 3.7
-     - added feature to allow graphing multipul logs
-     - making commpare graphs
-     - added basic data sucker module framework
-     - added tool to animate graphinh modules
-     - cleaned system tab
-     - resizing now worked correctly
-
-New features in 3.6
-     - added install wizard 
-     - lots of small fixes and improvements
-
-New features in 3.5
-     - added local graphing tab, lots of graphing options
-     - added graphing modules support and etc
-
-New Features in 3.0 
-     - added self-watering controlls 
-
-New features in this version - 2.5
-
-    - Added support for ADS1115 Analog to Digital Converter - this handly little component allows you to monitor and log four analog sensors per module, first ensure the ic2 is enabled and the ads1115 library is installed (look in the install pigrow dialogue box, which has been upgraded this version) Then goto the sensors tab an click add ads1115 
-
-    - tine difference graph in the create timelapse tab, this enables you to see the time differences in seconds between images in your timelapse
-
-    - Various cosmetic changes through out the gui, minor improvements and fixes.
-
-Recent new features -
-
-    - Overlay Log's onto Timelapse videos, new button in the timelapse tab that opens a dialogue box which allows you to select exactly which parts of the log you want to display, the size, position and colour of the text. It creates a new image set in a folder called edited_caps which you can overlay more logs onto or make into a timelapse. 
-
-    - User Logs, now you can record notes or log your own variables directly from the remote gui. This useful little feature makes it easy to record notes like 'photoperiod changed', 'seed type = bob's tomatos' and to log watering times, plant heights, etc which can be either overlaid onto the timelapse using the new overlay log feature or graphed as soon as the local graphing tab is completed... (coming in a future version) 
+To use the newest Raspberry Pi OS version 'Bookworm' requires the use of a virtual environment for python, to be able to install python modules such as those used to read sensors or watchdog which is used for monitoring logs the venv must be installed and enabled via the system panel, install pigrow dialogue - do this first before running the install wizard. 
 
 -------
 
  Install Notes; 
  -------------
 
- To connect to your pi you will need it linked to your wifi with SSH enabled, the easiest way to do this is to connect it to a screen using HDMI and use a mouse and keyboard to connect to wife and run raspi-conf to turn SSH on. 
+ To connect to your pi you will need it linked to your wifi with SSH enabled, the easiest way to do this is to set up ssh when creating the SD card in Raspberry Pi Imager. Alternatively connect it to a screen using HDMI and use a mouse and keyboard to connect to wife and run raspi-conf to turn SSH on. 
 
- Once connected to you raspbery pi you can use the 'install pigrow' button in the system tab of the gui to insstall the pigrow software onto the pi, the first step you should take is to change the box name to something of your choice (making sure to click the button after inputting your new name) - once you have your sensors and relay board working it's a good idea to use the local files tab to download your settings files so you can keep a backup.   
+ Once connected to you raspbery pi you can use the 'install pigrow' button in the system tab of the gui and use the Install Wizard, if using Raspberry Pi OS version Bookworm or others that require use of a venv then first use the config venv dialog box to install a virtual environment.
 
+ - once you have your sensors and relay board working it's a good idea to use the local files tab to download your settings files so you can keep a backup.   
 
- To make and play timelapse video you'll need MPV insalled, on linux simply run the command 'apt install mpv' on windows visit https://mpv.io/installation/ and follow the instructions, install it into the same folder as the pigrow_remote.exe or set path variables so that running the command mpv in the pigrow_remote.exe folder opens mpv.
-
+ To make and play timelapse video you'll need MPV insalled, on linux simply run the command 'apt install mpv' on windows visit https://mpv.io/installation/ and follow the instructions, there's an install script which will take care of everything for you. If using another method to install it set path variables so that running the command mpv in the pigrow_remote.exe folder opens mpv.
 
 --
 
@@ -58,5 +25,5 @@ This is still a rapidly evolving work-in-progress so not all features are comple
 
 
   More info and guides at www.reddit.com/r/Pigrow 
-  
+  Or robogromo on youtube  
   
