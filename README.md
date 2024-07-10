@@ -2,7 +2,7 @@
 
 This is the windows executable version of pigrow_remote.py - just download, unzip and run the executable test_gui.exe
 
-The test gui now has all the features of the old gui 3.7 except for the Graphing and User Log tabs. The features are upgraded in many ways so use the new gui for everything except for these - they'll be added in future versions. 
+'test_gui_008' now has all the features of the old gui 'pigrow_remote_4_9b' except for the Graphing and User Log tabs. The features are upgraded in many ways so use the new gui for everything except for these - they'll be added in future versions. 
 
 To use the newest Raspberry Pi OS version 'Bookworm' requires the use of a virtual environment for python, to be able to install python modules such as those used to read sensors or watchdog which is used for monitoring logs the venv must be installed and enabled via the system panel, install pigrow dialogue - do this first before running the install wizard. 
 
