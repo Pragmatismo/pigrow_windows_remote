@@ -1,3 +1,7 @@
+
+The newest version of this remote is now found at https://www.patreon.com/posts/new-version-of-118470264 there will be an release soon that will sort out the mess. 
+
+
 # pigrow_windows_remote
 
 This is the windows executable version of pigrow_remote.py - just download, unzip and run the executable test_gui.exe
